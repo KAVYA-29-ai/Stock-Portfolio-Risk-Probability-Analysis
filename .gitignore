@@ -1,3 +1,32 @@
+# Python
 __pycache__/
-*.pkl
-*.csv
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+models/*.pkl
+data/*.csv
+data/training_summary.json
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+Thumbs.db
